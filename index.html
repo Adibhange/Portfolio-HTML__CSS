@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>My Portfolio</title>
+		<link
+			rel="stylesheet"
+			href="src/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet" />
+	</head>
+	<body>
+		<!-- Theme Changer  -->
+		<input
+			type="checkbox"
+			id="day-night" />
+
+		<!------------------------------------ Header  ------------------------------------>
+		<header class="header">
+			<nav class="nav container">
+				<a
+					href="#"
+					class="nav__logo"
+					>Aditya</a
+				>
+				<div class="nav__items">
+					<!-- Theme Changer  -->
+					<div class="theme-changer">
+						<label
+							for="day-night"
+							class="change-theme">
+							<i class="fa-solid fa-sun"></i>
+							<i class="fa-solid fa-moon"></i>
+						</label>
+					</div>
+
+					<!-- Nav bar  -->
+					<input
+						type="checkbox"
+						id="nav__toggle" />
+
+					<label
+						for="nav__toggle"
+						class="nav-toggler">
+						<i class="fa-solid fa-bars"></i>
+					</label>
+					<ul class="nav__list">
+						<li>
+							<a
+								href="#Home"
+								class="nav__link active__link"
+								>Home</a
+							>
+						</li>
+						<li>
+							<a
+								href="#About"
+								class="nav__link"
+								>About</a
+							>
+						</li>
+						<li>
+							<a
+								href="#Education"
+								class="nav__link"
+								>Education</a
+							>
+						</li>
+						<li>
+							<a
+								href="#Skills"
+								class="nav__link"
+								>Skills</a
+							>
+						</li>
+						<li>
+							<a
+								href="#Certificates"
+								class="nav__link"
+								>Certificates</a
+							>
+						</li>
+						<li>
+							<a
+								href="#Projects"
+								class="nav__link"
+								>Projects</a
+							>
+						</li>
+						<li>
+							<a
+								href="#Contact"
+								class="nav__link"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<!------------------------------------ Main  ------------------------------------>
+		<main class="main">
+			<!---------------------- Home ---------------------->
+			<section
+				class="home"
+				id="Home">
+				<div class="home__container container grid">
+					<div class="home__content">
+						<span class="intro__greet">Hello, Myself</span>
+						<h1 class="intro__title">Aditya Bhange</h1>
+
+						<p class="intro__desc">
+							And I'm a <span>MERN Stack Developer</span>
+						</p>
+
+						<div class="social-links">
+							<a href="https://www.facebook.com/AdiBhange13/"
+								><i class="fa-brands fa-facebook"></i
+							></a>
+							<a href="https://www.instagram.com/adi_bhange13/"
+								><i class="fa-brands fa-instagram"></i
+							></a>
+							<a href="https://www.linkedin.com/in/aditya-bhange-4a8b33235/"
+								><i class="fa-brands fa-linkedin-in"></i
+							></a>
+							<a href="https://github.com/Adibhange"
+								><i class="fa-brands fa-github"></i
+							></a>
+						</div>
+
+						<div class="intro__btns">
+							<a
+								href="#"
+								class="btn"
+								>Download Resume</a
+							>
+							<a
+								href="#Contact"
+								class="btn btn-transparent"
+								>Contact Me</a
+							>
+						</div>
+					</div>
+
+					<div class="intro__img">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719661242/Portfolio/Intro-img_py897s.jpg"
+							alt="My Img"
+							class="my-img" />
+					</div>
+				</div>
+			</section>
+
+			<!---------------------- About ---------------------->
+			<section
+				class="about section"
+				id="About">
+				<h2 class="section-title">About Me</h2>
+				<div class="about__container container grid">
+					<div class="about__img">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719659021/Portfolio/About-img_nbub4e.jpg"
+							alt=""
+							class="about-img" />
+					</div>
+					<div class="about__content">
+						<p class="about__intro">
+							Myself Aditya Bhange, I'm a MERN Stack Developer
+						</p>
+
+						<ul class="about__myData grid">
+							<li class="myData__item">
+								<h3 class="myData__title">Age:</h3>
+								<span class="myData__desc">22</span>
+							</li>
+
+							<li class="myData__item">
+								<h3 class="myData__title">From:</h3>
+								<span class="myData__desc">Maharashtra,India</span>
+							</li>
+						</ul>
+
+						<div class="about__desc">
+							<p>
+								I'm passionate MERN Stack Developer with with a solid background
+								in designing and building web applications.
+							</p>
+							<p>
+								I specialize in both front-end and back-end development, using
+								technologies like HTML, CSS, JavaScript, React.js, Node.js, and
+								MongoDB. I enjoy the challenge of learning new technologies to
+								stay updated in the field and continually enhance my skills...
+								<a href="#">Read more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!---------------------- Education ---------------------->
+			<section
+				class="education section"
+				id="Education">
+				<h2 class="section-title">Education</h2>
+
+				<div class="education__container container grid">
+					<div class="education__items">
+						<div class="education__item">
+							<div class="education__header">
+								<h3 class="education-clg">
+									S.B.Patil College of Engineering, Pune.
+								</h3>
+							</div>
+
+							<div class="education__content">
+								<div class="education__degree-year">
+									<h3 class="education-degree">BE (Computer)</h3>
+									<span class="education-year">2020-2024</span>
+								</div>
+
+								<p class="education__desc">
+									I have completed my Bachelor's degree in Computer Engineering
+									from Pune University with a CGPA of 7.79.
+								</p>
+							</div>
+						</div>
+
+						<div class="education__item">
+							<div class="education__header">
+								<h3 class="education-clg">Shri Shivaji Mahavidyala, Barshi.</h3>
+							</div>
+
+							<div class="education__content">
+								<div class="education__degree-year">
+									<h3 class="education-degree">12 <sup>th</sup></h3>
+									<span class="education-year">2019-2020</span>
+								</div>
+
+								<p class="education__desc">
+									I have completed my HSC in Computer Science from Maharashtra
+									Board with a percentage of 65%.
+								</p>
+							</div>
+						</div>
+
+						<div class="education__item">
+							<div class="education__header">
+								<h3 class="education-clg">Maharashtra Vidyalaya, Barshi.</h3>
+							</div>
+
+							<div class="education__content">
+								<div class="education__degree-year">
+									<h3 class="education-degree">10 <sup>th</sup></h3>
+									<span class="education-year">2017-2018</span>
+								</div>
+
+								<p class="education__desc">
+									I have completed my SSC from Maharashtra Board with a
+									percentage of 89%.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!---------------------- Skill ---------------------->
+			<section
+				class="skill section"
+				id="Skills">
+				<h2 class="section-title">Skills</h2>
+
+				<div class="skills__container container grid">
+					<div class="skills__item">
+						<h3 class="skill-name"><i class="bx bxl-html5"></i> HTML</h3>
+						<div class="skill__content">
+							<p class="skill-level">Expert</p>
+							<span>95%</span>
+						</div>
+						<div class="skill-progressBar">
+							<div class="skill-percentage _95"></div>
+						</div>
+					</div>
+
+					<div class="skills__item">
+						<h3 class="skill-name"><i class="bx bxl-css3"></i> CSS</h3>
+						<div class="skill__content">
+							<p class="skill-level">Advanced</p>
+							<span>85%</span>
+						</div>
+						<div class="skill-progressBar">
+							<div class="skill-percentage _85"></div>
+						</div>
+					</div>
+
+					<div class="skills__item">
+						<h3 class="skill-name">
+							<i class="bx bxl-bootstrap"></i> BootStrap
+						</h3>
+						<div class="skill__content">
+							<p class="skill-level">Intermediate</p>
+							<span>70%</span>
+						</div>
+						<div class="skill-progressBar">
+							<div class="skill-percentage _70"></div>
+						</div>
+					</div>
+
+					<div class="skills__item">
+						<h3 class="skill-name">
+							<i class="bx bxl-tailwind-css"></i> Tailwind
+						</h3>
+						<div class="skill__content">
+							<p class="skill-level">Intermediate</p>
+							<span>70%</span>
+						</div>
+
+						<div class="skill-progressBar">
+							<div class="skill-percentage _70"></div>
+						</div>
+					</div>
+
+					<div class="skills__item">
+						<h3 class="skill-name">
+							<i class="bx bxl-javascript"></i> JavaScript
+						</h3>
+						<div class="skill__content">
+							<p class="skill-level">Advanced</p>
+							<span>85%</span>
+						</div>
+						<div class="skill-progressBar">
+							<div class="skill-percentage _85"></div>
+						</div>
+					</div>
+
+					<div class="skills__item">
+						<h3 class="skill-name">
+							<i class="bx bxl-javascript"></i> ExpressJS
+						</h3>
+						<div class="skill__content">
+							<p class="skill-level">Intermediate</p>
+							<span>75%</span>
+						</div>
+						<div class="skill-progressBar">
+							<div class="skill-percentage _75"></div>
+						</div>
+					</div>
+
+					<div class="skills__item">
+						<h3 class="skill-name"><i class="bx bxl-nodejs"></i> NodeJS</h3>
+						<div class="skill__content">
+							<p class="skill-level">Intermediate</p>
+							<span>75%</span>
+						</div>
+						<div class="skill-progressBar">
+							<div class="skill-percentage _75"></div>
+						</div>
+					</div>
+
+					<div class="skills__item">
+						<h3 class="skill-name"><i class="bx bxl-react"></i> ReactJS</h3>
+						<div class="skill__content">
+							<p class="skill-level">Intermediate</p>
+							<span>70%</span>
+						</div>
+						<div class="skill-progressBar">
+							<div class="skill-percentage _70"></div>
+						</div>
+					</div>
+
+					<div class="skills__item">
+						<h3 class="skill-name"><i class="bx bxl-php"></i> PHP</h3>
+						<div class="skill__content">
+							<p class="skill-level">Beginner</p>
+							<span>40%</span>
+						</div>
+						<div class="skill-progressBar">
+							<div class="skill-percentage _40"></div>
+						</div>
+					</div>
+
+					<div class="skills__item">
+						<h3 class="skill-name"><i class="bx bxl-mongodb"></i> MongoDB</h3>
+						<div class="skill__content">
+							<p class="skill-level">Intermediate</p>
+							<span>70%</span>
+						</div>
+						<div class="skill-progressBar">
+							<div class="skill-percentage _70"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!---------------------- Certificate ---------------------->
+			<section
+				class="certificate section"
+				id="Certificates">
+				<h2 class="section-title">Certificates</h2>
+
+				<div class="certificate__container container grid">
+					<div class="certificate__card">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719659021/Portfolio/Certificate1_xbavrf.png"
+							alt="certificate1"
+							class="certificate__img" />
+
+						<div class="certificate__content">
+							<h3 class="certificate-name">MERN Stack</h3>
+							<span class="certificate-year">Date of Issue: 2024</span>
+						</div>
+						<div class="hover-info">
+							<a
+								href="https://drive.google.com/file/d/1EmBLSkmSeVVUgLhD8N0Etovs4dBMdNby/view?usp=sharing"
+								class="btn"
+								>View</a
+							>
+						</div>
+					</div>
+
+					<div class="certificate__card">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719661242/Portfolio/Certificate2_a7qzjc.png"
+							alt="certificate2"
+							class="certificate__img" />
+
+						<div class="certificate__content">
+							<h3 class="certificate-name">AI</h3>
+							<span class="certificate-year">Date of Issue: 2023</span>
+						</div>
+						<div class="hover-info">
+							<a
+								href="https://drive.google.com/file/d/1OiGiX9ItqN9YprtsLLy-6OPJlJmCRYFL/view?usp=sharing"
+								class="btn"
+								>View</a
+							>
+						</div>
+					</div>
+
+					<div class="certificate__card">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719661242/Portfolio/Certificate3_x2orgc.png"
+							alt="certificate3"
+							class="certificate__img" />
+
+						<div class="certificate__content">
+							<h3 class="certificate-name">Azure Cloud</h3>
+							<span class="certificate-year">Date of Issue: 2023</span>
+						</div>
+						<div class="hover-info">
+							<a
+								href="https://drive.google.com/file/d/1YPu2TLxwR44Ccxip5Z8p_fVM3rQlSrZR/view?usp=sharing"
+								class="btn"
+								>View</a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!---------------------- Project ---------------------->
+			<section
+				class="project section"
+				id="Projects">
+				<h2 class="section-title">My Projects</h2>
+
+				<div class="project__container container grid">
+					<div class="project__card">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719807842/Portfolio/Project1_thsirz.png"
+							alt="project1"
+							class="project__img" />
+
+						<div class="project__desc">
+							<h3 class="project-name">Personal Blog Website</h3>
+							<p class="project-tech">
+								Technoogies used: <span class="project-lang">HTML, CSS</span>
+							</p>
+						</div>
+
+						<div class="hover-info">
+							<a
+								href="https://htmlcss-blog-adibhanges-projects.vercel.app/"
+								class="btn"
+								>See Live</a
+							>
+						</div>
+					</div>
+
+					<div class="project__card">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719807920/Portfolio/Project2_mwzwj9.png"
+							alt="project2"
+							class="project__img" />
+
+						<div class="project__desc">
+							<h3 class="project-name">Portfolio</h3>
+							<p class="project-tech">
+								Technoogies used:
+								<span class="project-lang">HTML, CSS, JavaScript</span>
+							</p>
+						</div>
+
+						<div class="hover-info">
+							<a
+								href="https://adityaubportfolio.netlify.app/#"
+								class="btn"
+								>See Live</a
+							>
+						</div>
+					</div>
+
+					<div class="project__card">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719807841/Portfolio/Project3_kn0nim.png"
+							alt="project3"
+							class="project__img" />
+
+						<div class="project__desc">
+							<h3 class="project-name">AirBnb Clone</h3>
+							<p class="project-tech">
+								Technoogies used:
+								<span class="project-lang"
+									>EJS, NodeJS, ExpressJS, BootStrap, CSS</span
+								>
+							</p>
+						</div>
+
+						<div class="hover-info">
+							<a
+								href="https://airbnb-clone-2-ol7l.onrender.com/listings"
+								class="btn"
+								>See Live</a
+							>
+						</div>
+					</div>
+
+					<div class="project__card">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719809519/Portfolio/Project4_hgheqq.png"
+							alt="project4"
+							class="project__img" />
+
+						<div class="project__desc">
+							<h3 class="project-name">Blog Website</h3>
+							<p class="project-tech">
+								Technoogies used: <span class="project-lang">MERN Stack</span>
+							</p>
+						</div>
+
+						<div class="hover-info">
+							<a
+								href="https://mern-blog-frontend-ochre.vercel.app/"
+								class="btn"
+								>See Live</a
+							>
+						</div>
+					</div>
+
+					<div class="project__card">
+						<img
+							src="https://res.cloudinary.com/dwhadpjsk/image/upload/v1719807843/Portfolio/Project5_d8b48f.png"
+							alt="project5"
+							class="project__img" />
+
+						<div class="project__desc">
+							<h3 class="project-name">Movie Stream Platform</h3>
+							<p class="project-tech">
+								Technoogies used: <span class="project-lang">MERN Stack</span>
+							</p>
+						</div>
+
+						<div class="hover-info">
+							<a
+								href="https://mern-blog-frontend-ochre.vercel.app/"
+								class="btn"
+								>See Live</a
+							>
+						</div>
+					</div>
+
+					<div class="project__card">
+						<img
+							src="https://d3l9a8mvoa6cl8.cloudfront.net/wp-content/uploads/sites/3/2020/04/03173944/online-food-delivery-industry-min.jpg"
+							alt="project6"
+							class="project__img" />
+
+						<div class="project__content">
+							<div class="project__desc">
+								<h3 class="project-name">Food Order</h3>
+								<p class="project-tech">
+									Technoogies used: <span class="project-lang">MERN Stack</span>
+								</p>
+							</div>
+						</div>
+
+						<div class="hover-info">
+							<a
+								href="https://mern-blog-frontend-ochre.vercel.app/"
+								class="btn"
+								>See Live</a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!---------------------- Contact ---------------------->
+			<section
+				class="contact section"
+				id="Contact">
+				<h2 class="section-title">Contact Me</h2>
+
+				<div class="contact__container container grid">
+					<div class="contact__info">
+						<div class="contact__item">
+							<h3 class="contact-icon">
+								<i class="bx bxs-phone-call bx-tada"></i>
+							</h3>
+
+							<div>
+								<h3 class="contact-type">Call Me:</h3>
+								<span class="contact-data">+91 9359950899</span>
+							</div>
+						</div>
+
+						<div class="contact__item">
+							<h3 class="contact-icon">
+								<i class="bx bxs-envelope bx-tada"></i>
+							</h3>
+
+							<div>
+								<h3 class="contact-type">Email Me:</h3>
+								<span class="contact-data">Bhangeaditya13@gmail.com</span>
+							</div>
+						</div>
+
+						<div class="contact__item">
+							<h3 class="contact-icon">
+								<i class="bx bxs-map bx-tada"></i>
+							</h3>
+
+							<div>
+								<h3 class="contact-type">Address:</h3>
+								<span class="contact-data">Barshi, Maharashtra</span>
+							</div>
+						</div>
+					</div>
+
+					<form
+						action="#"
+						class="contact__form">
+						<div class="form-group">
+							<div class="form-input">
+								<label for="Name">Name:</label>
+								<input
+									name="Name"
+									type="text"
+									class="input-control" />
+							</div>
+							<div class="form-input">
+								<label for="Email">Email:</label>
+								<input
+									name="Email"
+									type="email"
+									class="input-control" />
+							</div>
+						</div>
+
+						<div class="form-input">
+							<label for="Message">Message:</label>
+							<textarea
+								name="Message"
+								class="input-control textarea"></textarea>
+						</div>
+
+						<button class="btn">Message Me</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<!------------------------------------ Footer  ------------------------------------>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__content">
+					<div class="footer__icon">
+						<a
+							href="tel:+91 9359950899"
+							class="btn btn-transparent footer-btn">
+							<i class="bx bxs-phone-call bx-tada"></i>
+							<span class="footer-no">+91 9359950899</span>
+						</a>
+
+						<a
+							href="mailto:Bhangeaditya13@gmail.com"
+							class="btn btn-transparent footer-btn">
+							<i class="bx bxs-envelope bx-tada"></i>
+						</a>
+					</div>
+					<p class="footer-title">
+						&copy 2024 Aditya Bhange. All Rights Reserved
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
